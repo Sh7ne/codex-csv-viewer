@@ -1,0 +1,20 @@
+{
+  "name": "sh7ne-local-viewers",
+  "interface": {
+    "displayName": "Sh7ne Plugins"
+  },
+  "plugins": [
+    {
+      "name": "csv-viewer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/csv-viewer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

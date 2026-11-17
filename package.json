@@ -1,0 +1,46 @@
+{
+  "name": "codex-csv-viewer",
+  "version": "1.0.3",
+  "private": true,
+  "type": "module",
+  "description": "A local read-only CSV file viewer for Codex desktop",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "package": "npm run build && node scripts/package.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "1.7.5",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "@openai/mcp-extensions": "0.2.1",
+    "papaparse": "5.7.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/jsdom": "30.0.0",
+    "@types/node": "26.6.6",
+    "@types/papaparse": "5.5.2",
+    "esbuild": "0.28.2",
+    "fflate": "0.8.3",
+    "jsdom": "29.1.1",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "overrides": {
+    "zod": "$zod"
+  },
+  "license": "MIT",
+  "author": "sh7ne",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sh7ne/codex-csv-viewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sh7ne/codex-csv-viewer/issues"
+  },
+  "homepage": "https://github.com/Sh7ne/codex-csv-viewer#readme",
+  "engines": {
+    "node": ">=22.16.0"
+  }
+}

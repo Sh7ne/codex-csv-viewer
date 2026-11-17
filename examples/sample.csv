@@ -1,0 +1,38 @@
+编号,课程类型,练习名称,示例数量,参考链接1,参考链接2,示例标题,示例日期,说明
+001,虚构平衡类,虚构平衡练习 1,1,https://example.invalid/courses/001,,虚构平衡练习 1 — CSV Viewer Demo,2026-01-01,"全部内容均为虚构的公开测试数据，不代表真实课程或动作。 引号测试：""示例""；逗号测试：one,two。"
+002,虚构节奏类,虚构节奏练习 2,1,https://example.invalid/courses/002,,虚构节奏练习 2 — CSV Viewer Demo,2026-01-01,"全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+这是同一个单元格中的第二行。"
+003,虚构协调类,虚构协调练习 3,1,https://example.invalid/courses/003,,虚构协调练习 3 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+004,虚构平衡类,虚构平衡练习 4,1,https://example.invalid/courses/004,,虚构平衡练习 4 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+005,虚构节奏类,虚构节奏练习 5,1,https://example.invalid/courses/005,,虚构节奏练习 5 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+006,虚构协调类,虚构协调练习 6,2,https://example.invalid/courses/006,https://example.invalid/alternate/006,虚构协调练习 6 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+007,虚构平衡类,虚构平衡练习 7,1,https://example.invalid/courses/007,,虚构平衡练习 7 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+008,虚构节奏类,虚构节奏练习 8,1,https://example.invalid/courses/008,,虚构节奏练习 8 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+009,虚构协调类,虚构协调练习 9,1,https://example.invalid/courses/009,,虚构协调练习 9 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+010,虚构平衡类,虚构平衡练习 10,1,https://example.invalid/courses/010,,虚构平衡练习 10 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+011,虚构节奏类,虚构节奏练习 11,1,https://example.invalid/courses/011,,虚构节奏练习 11 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+012,虚构协调类,虚构协调练习 12,2,https://example.invalid/courses/012,https://example.invalid/alternate/012,虚构协调练习 12 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+013,虚构平衡类,虚构平衡练习 13,1,https://example.invalid/courses/013,,虚构平衡练习 13 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+014,虚构节奏类,虚构节奏练习 14,1,https://example.invalid/courses/014,,虚构节奏练习 14 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+015,虚构协调类,虚构协调练习 15,1,https://example.invalid/courses/015,,虚构协调练习 15 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+016,虚构平衡类,虚构平衡练习 16,1,https://example.invalid/courses/016,,虚构平衡练习 16 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+017,虚构节奏类,虚构节奏练习 17,1,https://example.invalid/courses/017,,虚构节奏练习 17 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+018,虚构协调类,虚构协调练习 18,2,https://example.invalid/courses/018,https://example.invalid/alternate/018,虚构协调练习 18 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+019,虚构平衡类,虚构平衡练习 19,1,https://example.invalid/courses/019,,虚构平衡练习 19 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+020,虚构节奏类,虚构节奏练习 20,1,https://example.invalid/courses/020,,虚构节奏练习 20 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+021,虚构协调类,虚构协调练习 21,1,https://example.invalid/courses/021,,虚构协调练习 21 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+022,虚构平衡类,虚构平衡练习 22,1,https://example.invalid/courses/022,,虚构平衡练习 22 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+023,虚构节奏类,虚构节奏练习 23,1,https://example.invalid/courses/023,,虚构节奏练习 23 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+024,虚构协调类,虚构协调练习 24,2,https://example.invalid/courses/024,https://example.invalid/alternate/024,虚构协调练习 24 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+025,虚构平衡类,虚构平衡练习 25,1,https://example.invalid/courses/025,,虚构平衡练习 25 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+026,虚构节奏类,虚构节奏练习 26,1,https://example.invalid/courses/026,,虚构节奏练习 26 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+027,虚构协调类,虚构协调练习 27,1,https://example.invalid/courses/027,,虚构协调练习 27 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+028,虚构平衡类,虚构平衡练习 28,1,https://example.invalid/courses/028,,虚构平衡练习 28 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+029,虚构节奏类,虚构节奏练习 29,1,https://example.invalid/courses/029,,虚构节奏练习 29 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+030,虚构协调类,虚构协调练习 30,2,https://example.invalid/courses/030,https://example.invalid/alternate/030,虚构协调练习 30 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+031,虚构平衡类,虚构平衡练习 31,1,https://example.invalid/courses/031,,虚构平衡练习 31 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+032,虚构节奏类,虚构节奏练习 32,1,https://example.invalid/courses/032,,虚构节奏练习 32 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+033,虚构协调类,虚构协调练习 33,1,https://example.invalid/courses/033,,虚构协调练习 33 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+034,虚构平衡类,虚构平衡练习 34,1,https://example.invalid/courses/034,,虚构平衡练习 34 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+035,虚构节奏类,虚构节奏练习 35,1,https://example.invalid/courses/035,,虚构节奏练习 35 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
+036,虚构协调类,虚构协调练习 36,2,https://example.invalid/courses/036,https://example.invalid/alternate/036,虚构协调练习 36 — CSV Viewer Demo,2026-01-01,全部内容均为虚构的公开测试数据，不代表真实课程或动作。
