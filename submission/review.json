@@ -1,0 +1,64 @@
+{
+  "test_cases": {
+    "positive": [
+      {
+        "description": "Open the sample using the desktop CSV file viewer and inspect a leading-zero ID.",
+        "prompt": "Download sample.csv into a local workspace. Open it from the desktop app and select CSV Viewer if prompted. Check the row count, column count and first ID.",
+        "tools_triggered": "open_csv",
+        "expected_behavior": "The viewer displays 36 data records across 9 columns. The first value in 编号 (ID) is 001. The separate # column shows source record numbers.",
+        "file_attachment_urls": ["https://raw.githubusercontent.com/Sh7ne/codex-csv-viewer/v1.0.3/examples/sample.csv"]
+      },
+      {
+        "description": "Filter records by a Chinese word, then clear the filter.",
+        "prompt": "Open sample.csv in CSV Viewer. Enter 平衡 in the search field. Read the match count, then clear the search field.",
+        "tools_triggered": "open_csv",
+        "expected_behavior": "The count changes from 36 records to 12 of 36. Clearing the search restores all 36 records.",
+        "file_attachment_urls": ["https://raw.githubusercontent.com/Sh7ne/codex-csv-viewer/v1.0.3/examples/sample.csv"]
+      },
+      {
+        "description": "Sort IDs in descending order and restore the original order.",
+        "prompt": "Open sample.csv in CSV Viewer. Click the 编号 column header twice, check the first ID, then click 原始顺序 to restore the original order.",
+        "tools_triggered": "open_csv",
+        "expected_behavior": "The first ID is 036 in descending order. After restoring the original order, the first ID is 001.",
+        "file_attachment_urls": ["https://raw.githubusercontent.com/Sh7ne/codex-csv-viewer/v1.0.3/examples/sample.csv"]
+      },
+      {
+        "description": "Inspect the full text of a quoted multiline cell.",
+        "prompt": "Open sample.csv in CSV Viewer. Locate ID 002, scroll across to the 说明 column and click its cell. Read the two lines in the detail panel.",
+        "tools_triggered": "open_csv",
+        "expected_behavior": "The expanded cell shows two lines. The second line is 这是同一个单元格中的第二行。 and the file still shows 36 data records.",
+        "file_attachment_urls": ["https://raw.githubusercontent.com/Sh7ne/codex-csv-viewer/v1.0.3/examples/sample.csv"]
+      },
+      {
+        "description": "Switch the first row between headers and data.",
+        "prompt": "Open sample.csv in CSV Viewer. Clear the 首行为表头 checkbox, inspect the first row, then select it again.",
+        "tools_triggered": "open_csv",
+        "expected_behavior": "With the box cleared, there are 37 records. The first value under 列 1 is 编号. With the box selected again, 编号 becomes a header and the count returns to 36.",
+        "file_attachment_urls": ["https://raw.githubusercontent.com/Sh7ne/codex-csv-viewer/v1.0.3/examples/sample.csv"]
+      }
+    ],
+    "negative": [
+      {
+        "description": "A cell containing a spreadsheet formula must be displayed literally.",
+        "prompt": "Open literal-values.csv in CSV Viewer and click the =1+1 cell in the 公式文本 column. Check whether opening the cell evaluates the formula.",
+        "expected_behavior": "Both the table and the cell detail show the four literal characters =1+1. The displayed value stays the same on inspection.",
+        "file_attachment_urls": ["https://raw.githubusercontent.com/Sh7ne/codex-csv-viewer/9113a3f2db534ba139e1ed31f541cb4830ec1f88/submission/literal-values.csv"]
+      },
+      {
+        "description": "A mailto address must not launch an external handler.",
+        "prompt": "Open literal-values.csv in CSV Viewer. Click the mailto:demo@example.invalid cell in the 非网页地址 column and inspect what opens.",
+        "expected_behavior": "The viewer opens the cell detail as text. No mail application or external page opens. The neighboring https://example.invalid/ cell is shown as a web link.",
+        "file_attachment_urls": ["https://raw.githubusercontent.com/Sh7ne/codex-csv-viewer/9113a3f2db534ba139e1ed31f541cb4830ec1f88/submission/literal-values.csv"]
+      },
+      {
+        "description": "An unmatched query must report an empty result.",
+        "prompt": "Open sample.csv in CSV Viewer. Search for no-matching-demo-record, inspect the empty state, then clear the query.",
+        "expected_behavior": "The viewer displays 没有匹配的记录。 and a count of 0 out of 36. Clearing the query restores all 36 original rows.",
+        "file_attachment_urls": ["https://raw.githubusercontent.com/Sh7ne/codex-csv-viewer/v1.0.3/examples/sample.csv"]
+      }
+    ]
+  },
+  "demo_recording_url": "https://raw.githubusercontent.com/Sh7ne/codex-csv-viewer/9113a3f2db534ba139e1ed31f541cb4830ec1f88/submission/demo.mp4",
+  "commerce": false,
+  "commerce_description": "CSV Viewer is free and open source. It offers local file viewing and has no payment or purchase flow."
+}

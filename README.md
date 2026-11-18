@@ -75,6 +75,8 @@ npm run package
 
 `npm run package` 输出可安装 ZIP 和 `SHA256SUMS` 到 `release/`。打包使用明确的文件清单，排除本机诊断、开发依赖和无关文件。构建时生成第三方许可声明。
 
+维护者运行 `npm run package:submission` 可在 `release/submission/` 生成官方目录使用的单插件 ZIP。这个包将插件清单放在根目录，并附上 `submission/` 中维护的目录信息和审核用例。上架状态以 OpenAI 提交门户为准。
+
 测试使用仓库自带的虚构数据，覆盖解析边界、表格交互、原文件不变、真实启动配置、MCP 文件入口、宿主资源桥接和并发文件切换。运行测试不需要账户、API 密钥或个人素材。
 
 目录：`src/` 为查看器和 MCP 服务源码；`plugins/csv-viewer/` 为预构建插件；`.agents/plugins/marketplace.json` 为安装目录；`examples/` 为公开示例。

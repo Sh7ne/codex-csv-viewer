@@ -23,7 +23,7 @@ export const REQUIRED_RELEASE_FILES = Object.freeze([
 ]);
 export const OPTIONAL_RELEASE_FILES = Object.freeze(['CHANGELOG.md', 'PRIVACY.md']);
 
-async function readReleaseFile(root, relativeName) {
+export async function readReleaseFile(root, relativeName) {
   const file = path.join(root, ...relativeName.split('/'));
   const info = await lstat(file);
   if (!info.isFile() || info.isSymbolicLink()) {
@@ -37,7 +37,7 @@ async function readReleaseFile(root, relativeName) {
   return readFile(file);
 }
 
-function verifyPublicContent(relativeName, bytes, root) {
+export function verifyPublicContent(relativeName, bytes, root) {
   if (/(?:^|\/)(?:node_modules|test-results|reference|\.git)(?:\/|$)/.test(relativeName)) {
     throw new Error(`Private/development directory in release: ${relativeName}`);
   }
