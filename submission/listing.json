@@ -1,6 +1,6 @@
 {
   "displayName": "CSV Viewer",
-  "developerName": "sh7ne",
+  "developerName": "WetSilver",
   "shortDescription": "View CSV files as tables",
   "longDescription": "Open a CSV file in a local desktop chat to search, sort and inspect its rows. The viewer reads the original file through the desktop host and displays its contents in a Chinese-language interface. It supports files up to 32 MiB. Node.js 22.16 or later must be available on PATH. The ZIP bundles the local server, user interface and JavaScript dependencies. Built by sh7ne in collaboration with Codex.",
   "websiteURL": "https://github.com/Sh7ne/codex-csv-viewer",

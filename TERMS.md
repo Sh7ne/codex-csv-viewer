@@ -1,6 +1,6 @@
 # CSV Viewer terms of use
 
-CSV Viewer is an open-source desktop plugin published by sh7ne. It displays the CSV file you open and lets you search, sort and inspect its contents locally.
+CSV Viewer is an open-source desktop plugin developed by sh7ne with Codex. WetSilver handles its OpenAI Plugin Directory submission. The plugin displays the CSV file you open and lets you search, sort and inspect its contents locally.
 
 You may use, copy, modify and distribute CSV Viewer under the MIT License. When distributing copies or substantial portions of the software, include the copyright and license notice. The software is provided as is. The full license sets out the permissions, warranty disclaimer and limitation of liability. [MIT License](https://github.com/Sh7ne/codex-csv-viewer/blob/main/LICENSE)
 

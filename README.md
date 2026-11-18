@@ -87,4 +87,4 @@ npm run package
 
 [MIT License](LICENSE)。发行包包含 [第三方许可声明](plugins/csv-viewer/THIRD-PARTY-NOTICES.txt)。版本变化见 [CHANGELOG](CHANGELOG.md)。
 
-实现基于 OpenAI MCP Extensions 的 [文件查看器入口](https://developers.openai.com/plugins/build/extensions#file-viewers-and-editors)。这是由 sh7ne 发布的社区插件。
+这个社区插件使用 OpenAI MCP Extensions 的文件查看器入口，由 WetSilver 负责向 OpenAI 插件目录提交。[文件查看器入口文档](https://developers.openai.com/plugins/build/extensions#file-viewers-and-editors)

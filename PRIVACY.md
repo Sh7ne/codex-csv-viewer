@@ -1,6 +1,6 @@
 # 数据处理说明
 
-发布者：sh7ne。署名：**sh7ne 出品，与 Codex 协作开发**。
+WetSilver 负责向 OpenAI 插件目录提交 CSV Viewer。**sh7ne 出品，与 Codex 协作开发**。
 
 CSV Viewer 是本地只读查看器。用户从桌面宿主打开 CSV 后，插件使用宿主提供的资源 URI 读取该文件。它不提供任意路径读取工具，也不扫描文件夹。
 
